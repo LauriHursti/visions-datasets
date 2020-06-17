@@ -16,7 +16,7 @@ In addition to the images there's the ground truth annotations containing target
 
 While files in ``validation/gt`` contain target detections for full card names, there's also target detections for single words. Those are in ``validation/gt_split``. Many text detection algorithms detect singular words, so this dataset is useful for them.
 
-In addition to card names the card type could be included if it's fully visible. Those should be removed when using the gt files for card detection validation.
+In addition to card names the card type can be included if it's fully visible.
 
 ## Connected components of text and noise
 
