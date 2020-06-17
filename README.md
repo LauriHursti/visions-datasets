@@ -10,13 +10,13 @@ Datasets for training machine learning models to read MTG card names in images.
 
 This dataset located in ``validation`` folder was used to validate the method used in [Visions](https://github.com/LauriHursti/visions). The method achieves 0.96 recall and 0.993 precision in recognizing cards using this dataset.
 
-The inputs consist of images that have multiple MTG cards in them. Those can be found in ``validation/images``. There's 500 images containing 1750 cards in total. Both modern and M15 frame have 875 cards using that frame included in the images.
+The inputs consist of images that have multiple MTG cards in them. Those can be found in ``validation/images``. There's 500 images containing 1750 cards in total including 875 modern frame cards and 875 M15 frame cards.
 
-In addition to the images there's the ground truth annotations containing target detections and card names in [ICDAR 2015 format](https://rrc.cvc.uab.es/?ch=4&com=tasks). Those can be found in ``validation/gt``. Ground truth and image files can be paired by name. E.g. image ``IMG_20191130151746.jpg`` has a gt file called ``gt_IMG_20191130151746.txt``. 
+In addition to the images there's the ground truth annotations containing target detections and card names in [ICDAR 2015 format](https://rrc.cvc.uab.es/?ch=4&com=tasks). Those can be found in ``validation/gt``. Gt and image files can be paired by name. E.g. image ``IMG_20191130151746.jpg`` has a gt file called ``gt_IMG_20191130151746.txt``. 
 
-While files in ``validation/gt`` contain target detections for full card names, there's also target detections for single words. Those are in ``validation/gt_split``. Many text detection algorithms detect singular words, so this dataset might be useful for them.
+While files in ``validation/gt`` contain target detections for full card names, there's also target detections for single words. Those are in ``validation/gt_split``. Many text detection algorithms detect singular words, so this dataset is useful for them.
 
-In addition to card names the card type can be included if it's fully visible. Those should be removed if you're using the files for card detection validation.
+In addition to card names the card type could be included if it's fully visible. Those should be removed when using the gt files for card detection validation.
 
 ## Connected components of text and noise
 
@@ -36,11 +36,9 @@ In addition to card names the card type can be included if it's fully visible. T
 
 In Visions the classification is done by a convolutional neural network. It was trained with a collection of images of connected components. Components were mined from synthetically created images similar to the images in the validation dataset.
 
-The connected components images are color images of size 24x24. There's 347 783 positive connected components that are parts of the name and 267 875 negative connected components that are not parts of card names. Samples can be found in ``samples/negative_cc`` and ``samples/positive_cc``. There'q quite a few files in the dataset so they've been split into ten packages for easier download.
+The connected components images are color images of size 24x24. There's 347 783 positive connected components that are parts names and 267 875 negative connected components that are not parts names. Samples of both classes can be found in ``samples/cc_negative`` and ``samples/cc_positive``. There's quite a few files in the dataset so the dataset is split in packages.
 
-**Folder link**
-
-[Folder link](https://drive.google.com/drive/folders/1gomEEv3TMrWxksDZ2kIz-5_1fwnWAgNi?usp=sharing)
+[**Folder link**](https://drive.google.com/drive/folders/1gomEEv3TMrWxksDZ2kIz-5_1fwnWAgNi?usp=sharing)
 
 **Positive connected components**
 
@@ -52,7 +50,7 @@ The connected components images are color images of size 24x24. There's 347 783 
 
 [cc_positive_pkg4.zip](https://drive.google.com/file/d/1Jvf173R3ooGsMN2fWJzljLdOtPl-2ll4/view?usp=sharing)
 
-[cc_positive_pkg4.zip](https://drive.google.com/file/d/1z2YBWJT_LsQEGp_qlWkW878Rbf0s1erM/view?usp=sharing)
+[cc_positive_pkg5.zip](https://drive.google.com/file/d/1z2YBWJT_LsQEGp_qlWkW878Rbf0s1erM/view?usp=sharing)
 
 **Negative connected components**
 
@@ -65,7 +63,6 @@ The connected components images are color images of size 24x24. There's 347 783 
 [cc_negative_pkg4.zip](https://drive.google.com/file/d/1MjScac8yg3MthFW-JHMjh4Ph71wY3o7R/view?usp=sharing)
 
 [cc_negative_pkg4.zip](https://drive.google.com/file/d/1X05RUx6TTAkCA6cOPOleJbZjkOZ_R9SO/view?usp=sharing)
-
 
 ## Images of card names
 
@@ -81,9 +78,9 @@ The connected components images are color images of size 24x24. There's 347 783 
     <img src="readme_imgs/names44.png" height="150"/>
 </a>
 
-Images of card names were used to train the recognition neural network. The images are color images with height 32px and varying width. The ground truth is included in the file name e.g. ``Black_Lotus_1.jpg``. The number at the end of the file name separates variations of the same name from each other.
+Images of card names were used to train the text recognition network. The images are color images with height 32 and varying width. The ground truth is included in the file name e.g. ``Black_Lotus_1.jpg``. The number at the end of the file name separates variations of the same name from each other.
 
-The dataset is split in three parts with different maximum lengths for the content. The first set has names and starts of names that have maximum 10 characters. The other two are similar datasets for 20 and 44 characters. There's 25 685 images in the 10 character set, 85 380 in the 20 character set and 88 365 in the 44 character set.
+The dataset is split in three parts with different maximum lengths for the content. The first set has starts of names that have maximum 10 characters. The other two are similar datasets for 20 and 44 characters. There's 25 685 images in the 10 character set, 85 380 in the 20 character set and 88 365 in the 44 character set.
 
 Samples from each set can be seen in ``samples/names_10``, ``samples/names_20`` and ``samples/names_44``.
 
@@ -105,7 +102,7 @@ Samples from each set can be seen in ``samples/names_10``, ``samples/names_20`` 
 
 **44 characters**
 
-[names_44_pkg1.zip](https://drive.google.com/file/d/1d4-RINLJofJyoo4QCdXOcfvPW1vvVrZX/view?usp=sharing)
+[names_44_pkg1.zip](https://drive.google.com/file/d/1MK7ClOMChocljWvLepG1lJknpRf_Wrff/view?usp=sharing)
 
 [names_44_pkg2.zip](https://drive.google.com/file/d/1TY3y1RG3Pigm3pOAxarqeUYbNyuEsJiD/view?usp=sharing)
 
