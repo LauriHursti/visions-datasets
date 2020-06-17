@@ -1,0 +1,5 @@
+780,423,470,366,475,337,786,394,Ardenvale Tactician
+695,530,391,468,398,432,703,494,Thrill of Possibility
+463,597,306,567,311,535,469,565,Mountain
+616,747,206,670,212,633,623,711,Emry, Lurker of the Loch
+371,842,85,789,91,757,377,810,Sorcerer's Broom

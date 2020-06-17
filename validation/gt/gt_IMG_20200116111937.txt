@@ -1,0 +1,5 @@
+718,395,508,325,517,300,726,370,Seraph Sanctuary
+732,502,434,406,441,384,739,479,Treacherous Pit-Dweller
+622,565,357,479,365,457,629,542,Vessel of Endless Rest
+444,632,275,580,283,553,452,604,Blazing Torch
+394,709,171,641,177,618,401,687,Bitterheart Witch

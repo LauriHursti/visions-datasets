@@ -1,0 +1,4 @@
+335,344,333,310,698,283,701,318,Strength in Numbers
+281,512,280,482,707,480,708,510,Crookclaw Transmuter
+519,734,209,715,212,675,522,695,Foriysian Totem
+592,992,132,959,135,914,596,948,Tendrils of Corruption

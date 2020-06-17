@@ -1,0 +1,3 @@
+201,500,199,477,495,458,497,480,Curse of the Forsaken
+195,640,194,611,441,608,442,638,Tempt with Glory
+306,760,38,755,38,729,307,734,Thornwind Faeries

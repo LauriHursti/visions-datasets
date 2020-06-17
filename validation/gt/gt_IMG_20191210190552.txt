@@ -1,0 +1,5 @@
+821,268,562,265,563,221,822,225,Wolf's Quarry
+932,414,494,409,495,366,933,372,Blow Your House Down
+764,559,422,556,422,511,765,514,Fires of Invention
+288,705,287,656,688,649,689,698,Edgewall Innkeeper
+742,882,242,871,243,827,742,839,Embereth Shieldbreaker

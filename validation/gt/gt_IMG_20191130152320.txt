@@ -1,0 +1,3 @@
+313,469,304,438,519,369,528,400,Cleaving Sliver
+300,619,288,586,538,499,549,532,Choking Tethers
+211,785,198,750,547,621,559,655,Scour All Possibilities

@@ -1,0 +1,5 @@
+156,251,150,216,471,165,477,199,Drownyard Explorers
+227,326,226,292,581,282,582,317,Paranoid Parish-Blade
+182,483,178,447,611,388,615,424,Reaper of Flight Moonsilver
+193,630,188,596,472,551,477,586,True-Faith Censer
+221,753,216,716,535,678,540,714,Explosive Apparatus

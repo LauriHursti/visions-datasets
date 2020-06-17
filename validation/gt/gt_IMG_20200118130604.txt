@@ -1,0 +1,5 @@
+728,120,505,101,508,76,730,94,Aether Theorist
+778,260,415,194,420,163,784,229,Terror of the Fairgrounds
+258,361,258,329,537,320,538,353,Renegade Freighter
+174,562,173,534,417,531,417,559,Veteran Motorist
+83,726,81,694,351,682,353,715,Fleetwheel Cruiser

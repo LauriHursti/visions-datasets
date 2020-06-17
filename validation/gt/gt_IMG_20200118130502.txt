@@ -1,0 +1,5 @@
+559,117,557,68,937,58,939,106,Renegade Tactics
+445,280,443,229,912,210,914,262,Consul's Shieldguard
+326,446,325,394,766,386,767,439,Impeccable Timing
+225,596,224,546,583,544,583,594,Torch Gauntlet
+44,793,43,737,578,733,578,789,Restoration Gearsmith

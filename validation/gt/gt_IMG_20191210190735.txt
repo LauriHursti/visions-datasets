@@ -1,0 +1,6 @@
+850,173,511,156,513,120,852,136,Mistford River Turtle
+728,297,435,291,436,260,729,266,Tuinvale Treefolk
+369,442,368,405,701,388,703,425,Locthwain Gargoyle
+701,571,332,564,333,524,702,532,Trapped in the Tower
+241,713,240,675,572,669,573,708,Thrill of Possibility
+446,835,139,826,141,787,448,797,Wicked Guardian

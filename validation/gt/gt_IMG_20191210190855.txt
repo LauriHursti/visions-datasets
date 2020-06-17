@@ -1,0 +1,4 @@
+877,405,427,377,430,331,880,359,Mysterious Pathlighter
+709,547,326,525,329,478,712,500,Inquisitive Puppet
+527,681,198,660,201,609,531,631,Witch's Cottage
+481,828,114,811,116,765,483,783,Beloved Princess

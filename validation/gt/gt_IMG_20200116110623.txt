@@ -1,0 +1,4 @@
+433,491,431,451,872,439,873,479,Empty-Shrine Kannushi
+827,678,362,626,366,585,831,638,Charge Across the Araba
+519,773,225,747,227,713,522,740,Harsh Deceiver
+53,1005,50,964,399,933,403,974,Consuming Vortex

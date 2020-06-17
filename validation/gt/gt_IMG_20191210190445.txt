@@ -1,0 +1,6 @@
+678,76,251,51,253,6,681,32,Burning-Yard Trainer
+601,244,282,231,284,186,602,199,Foulmire Knight
+523,438,213,429,215,385,525,394,Beanstalk Giant
+262,575,261,535,674,532,675,573,Smitten Swordmaster
+259,720,258,682,642,681,642,719,Ardenvale Tactician
+662,896,259,887,260,848,663,858,Merchant of the Vale

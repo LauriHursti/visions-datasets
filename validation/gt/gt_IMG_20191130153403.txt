@@ -1,0 +1,4 @@
+388,302,386,257,832,246,833,291,Hallar, the Firefletcher
+322,424,322,383,752,378,753,420,Benalish Honor Guard
+529,577,260,575,261,533,530,535,Healing Grace
+191,721,190,679,537,677,537,718,Homarid Explorer

@@ -1,0 +1,5 @@
+574,162,236,152,238,101,576,112,True Love's Kiss
+230,314,229,266,653,261,654,309,Signpost Scarecrow
+223,514,222,474,685,468,686,509,Smitten Swordmaster
+221,636,221,592,654,592,654,636,Ardenvale Tactician
+220,814,220,766,596,766,596,814,Fell the Pheasant

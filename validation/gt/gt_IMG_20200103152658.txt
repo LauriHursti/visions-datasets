@@ -1,0 +1,3 @@
+369,494,368,466,614,460,615,487,Hooded Horror
+641,641,253,635,254,607,642,612,Curse of Shallow Graves
+378,882,66,871,68,837,380,847,Nightscape Familiar

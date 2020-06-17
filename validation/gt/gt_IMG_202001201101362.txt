@@ -1,0 +1,6 @@
+39,182,31,139,425,67,433,109,Wanderer's Strike
+93,389,86,337,436,294,443,347,Sunblade Angel
+116,541,112,491,488,453,493,503,Courage in Crisis
+157,687,157,646,547,642,547,683,Centaur Nurturer
+569,848,189,831,191,790,571,806,Primordial Wurm
+749,1017,168,1005,169,958,749,969,Tenth District Legionnaire

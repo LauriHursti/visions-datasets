@@ -1,0 +1,3 @@
+627,362,386,309,394,273,635,326,Malfunction
+811,632,193,507,202,461,820,586,Commencement of Festivities
+567,906,116,735,135,685,586,856,Revolutionary Rebuff

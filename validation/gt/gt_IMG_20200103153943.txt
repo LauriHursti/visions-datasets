@@ -1,0 +1,5 @@
+810,354,496,346,497,321,811,329,Ironclaw Buzzardiers
+710,445,439,439,440,413,711,420,Thrill of the Hunt
+709,543,369,533,370,506,710,517,Thick-Skinned Goblin
+633,652,293,645,294,618,634,625,Thallid Shell-Dweller
+516,774,192,772,193,737,517,740,Tromp the Domains
